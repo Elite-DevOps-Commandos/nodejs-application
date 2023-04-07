@@ -3,7 +3,7 @@ node
  
   stage("CheckOutCodeGit")
   {
-   git branch: 'master', url: 'https://github.com/bhaskar0504/node-js-application.git'
+   git url: 'https://github.com/bhaskar0504/node-js-application.git'
  }
  
  stage("Build")
