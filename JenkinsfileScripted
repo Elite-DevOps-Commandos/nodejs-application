@@ -10,8 +10,8 @@ node
  {
  nodejs(nodeJSInstallationName: 'nodejs19') {
         sh 'npm install'
-    }
- }  
+   }
+        }  
  
   stage('ExecuteSonarQubeReport') {
      nodejs(nodeJSInstallationName: 'nodejs19') {
